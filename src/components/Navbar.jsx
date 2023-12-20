@@ -13,7 +13,7 @@ const Navbar = () => {
     setLanguageMenuOpen(!isLanguageMenuOpen);
   };
 
-  const languages = ["English", "Spanish", "French"]; // Add your supported languages
+  const languages = ["English", "Spanish", "French"]; 
 
   const handleLanguageSelect = (language) => {
     setGlobalLanguage(language);
